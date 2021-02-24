@@ -75,6 +75,6 @@
 }
 
 /* required asterisk */
-.wufoo form span.req {
+.wufoo form li span.req {
   color: #EC742E !important;
 }
