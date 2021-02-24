@@ -9,8 +9,8 @@
 - - - - - - - - - - - - - - - - - - - - - */
 /* typography */
 .wufoo * {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
-  font-size: 20px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif !important;
+  font-size: 20px !important;
 }
 
 /* hide header (title/description handled by components outside of form) */
