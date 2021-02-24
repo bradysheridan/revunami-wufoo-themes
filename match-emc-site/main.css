@@ -12,16 +12,16 @@ form.wufoo * {
 }
 
 form.wufoo header {
-  display: none;
+  display: none !important;
 }
 
-form.wufoo textarea, input {
+form.wufoo textarea, form.wufoo input {
   padding: 3px 6px 3px 6px;
-  border: none;
+  border: none !important;
 }
 
-form.wufoo textarea:focus, input:focus {
-  border: none;
+form.wufoo textarea:focus, form.wufoo input:focus {
+  border: none !important;
 }
 
 form.wufoo input[type=submit] {
