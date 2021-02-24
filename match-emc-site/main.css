@@ -11,24 +11,26 @@ form.wufoo * {
   font-family: "bianco-reg", "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
 }
 
-textarea, input {
+form.wufoo textarea, input {
   padding: 3px 6px 3px 6px;
-}
-
-textarea:focus, input:focus {
   border: none;
 }
 
-input[type=submit] {
+form.wufoo textarea:focus, input:focus {
+  border: none;
+}
+
+form.wufoo input[type=submit] {
   width: 100%;
-  padding: 20px 0px 20px 0px;
+  padding: 12px 0px 12px 0px;
   color: #fff;
   border-radius: 6px;
   border: none;
+  cursor: pointer;
   background-color: #EC742E;
   transition: 200ms;
 }
-input[type=submit]:hover {
+form.wufoo input[type=submit]:hover {
   background-color: #d45e19;
   transition: 200ms;
 }
