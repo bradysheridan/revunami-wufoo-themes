@@ -19,6 +19,8 @@ form.wufoo header {
 form.wufoo textarea {
   /* width: 95%;
   border: 1px solid green !important; */
+  padding: 10px;
+  margin: 5px;
 }
 
 /* form.wufoo textarea, form.wufoo input {
