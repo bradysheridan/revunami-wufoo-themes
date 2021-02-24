@@ -7,20 +7,20 @@
  Last Updated : 2/24/2021
 
 - - - - - - - - - - - - - - - - - - - - - */
-form.wufoo * {
+.wufoo * {
   font-family: "bianco-reg", "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
   font-size: 20px;
 }
 
-form.wufoo header {
+.wufoo header {
   display: none !important;
 }
 
-form.wufoo textarea {
+.wufoo textarea {
   /* width: 95%;
   border: 1px solid green !important; */
   padding: 10px;
-  margin: 5px;
+  margin-right: 20px;
 }
 
 /* form.wufoo textarea, form.wufoo input {
@@ -28,14 +28,17 @@ form.wufoo textarea {
 } */
 
 
-form.wufoo li.focused {
-  background-color: #ffe8d9 !important;
+.wufoo li.focused {
+  /* background-color: #ffe8d9 !important; */
 }
-form.wufoo li.focused input:focus, textarea:focus {
-  border: 1px solid #FBD8C2 !important;
+.wufoo li.focused input:focus, textarea:focus {
+  /* border: 1px solid #FBD8C2 !important; */
 }
 
-form.wufoo input[type=submit] {
+.wufoo input[type=text] {
+  border: none;
+}
+.wufoo input[type=submit] {
   width: 100%;
   padding: 12px 0px 12px 0px;
   color: #fff;
@@ -45,7 +48,7 @@ form.wufoo input[type=submit] {
   background-color: #EC742E;
   transition: 200ms;
 }
-form.wufoo input[type=submit]:hover {
+.wufoo input[type=submit]:hover {
   background-color: #d45e19;
   transition: 200ms;
 }
