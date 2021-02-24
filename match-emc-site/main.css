@@ -11,6 +11,10 @@ form.wufoo * {
   font-family: "bianco-reg", "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
 }
 
+form.wufoo header {
+  display: none;
+}
+
 form.wufoo textarea, input {
   padding: 3px 6px 3px 6px;
   border: none;
