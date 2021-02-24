@@ -17,11 +17,10 @@ form.wufoo header {
 
 form.wufoo textarea, form.wufoo input {
   padding: 3px 6px 3px 6px;
-  border: none !important;
 }
 
-form.wufoo textarea:focus, form.wufoo input:focus {
-  border: none !important;
+form.wufoo li.focused {
+  background-color: #eee;
 }
 
 form.wufoo input[type=submit] {
