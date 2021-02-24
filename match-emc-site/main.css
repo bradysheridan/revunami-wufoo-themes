@@ -37,6 +37,12 @@
   border-bottom: 1px solid green !important;
   background: blue !important;
 }
+.wufoo li.focused input.text:focus,
+.wufoo li.focused input.search:focus,
+.wufoo li.focused textarea.textarea:focus {
+  border: 0 !important;
+  background: pink !important;
+}
 
 
 /* submit button */
