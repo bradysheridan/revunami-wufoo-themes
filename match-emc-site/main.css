@@ -40,7 +40,8 @@
 .wufoo li.focused input.text:focus,
 .wufoo li.focused input.search:focus,
 .wufoo li.focused textarea.textarea:focus {
-  border: 0 !important;
+  border: none !important;
+  outline: none !important;
   background: pink !important;
 }
 
