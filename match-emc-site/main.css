@@ -3,7 +3,10 @@
  Title : Match EMC Site
  Author : Brady Sheridan (dev@bradysheridan.com)
  URL : https://bradysheridan.github.io/revunami-wufoo-themes/match-emc-site/main.css
- 
+
  Last Updated : 2/24/2021
 
 - - - - - - - - - - - - - - - - - - - - - */
+form.wufoo {
+  font-family: "bianco-reg", "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+}
