@@ -17,13 +17,13 @@ form.wufoo header {
 }
 
 form.wufoo textarea {
-  width: 95%;
-  border: 1px solid green !important;
+  /* width: 95%;
+  border: 1px solid green !important; */
 }
 
-form.wufoo textarea, form.wufoo input {
+/* form.wufoo textarea, form.wufoo input {
   padding: 3px 6px 3px 6px;
-}
+} */
 
 form.wufoo li.focused {
   background-color: #ffe8d9 !important;
