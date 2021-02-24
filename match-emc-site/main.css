@@ -22,27 +22,27 @@
 .wufoo input.text,
 .wufoo input.search,
 .wufoo textarea.textarea {
-  border-top: 1px solid red !important;
-  border-left: 1px solid red !important;
-  border-right: 1px solid red !important;
-  border-bottom: 1px solid red !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
   background: #fff !important;
 }
 .wufoo li.focused input.text,
 .wufoo li.focused input.search,
 .wufoo li.focused textarea.textarea {
-  border-top: 1px solid green !important;
-  border-left: 1px solid green !important;
-  border-right: 1px solid green !important;
-  border-bottom: 1px solid green !important;
-  background: blue !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  background: #fff !important;
 }
 .wufoo li.focused input.text:focus,
 .wufoo li.focused input.search:focus,
 .wufoo li.focused textarea.textarea:focus {
-  border: none !important;
+  /* border: none !important;
   outline: none !important;
-  background: pink !important;
+  background: pink !important; */
 }
 
 
