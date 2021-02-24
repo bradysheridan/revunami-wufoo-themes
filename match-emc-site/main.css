@@ -10,12 +10,12 @@
 /* typography */
 .wufoo * {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif !important;
-  font-size: 20px !important;
+  font-size: 16px !important;
 }
 
 /* hide header (title/description handled by components outside of form) */
 .wufoo header {
-  display: none !important;
+  /* display: none !important; */
 }
 
 /* borders on text inputs */
