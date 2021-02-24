@@ -9,6 +9,7 @@
 - - - - - - - - - - - - - - - - - - - - - */
 form.wufoo * {
   font-family: "bianco-reg", "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+  font-size: inherit;
 }
 
 form.wufoo header {
@@ -20,7 +21,10 @@ form.wufoo textarea, form.wufoo input {
 }
 
 form.wufoo li.focused {
-  background-color: #eee;
+  background-color: #eee !important;
+}
+form.wufoo li.focused input, textarea {
+  border: none !important;
 }
 
 form.wufoo input[type=submit] {
