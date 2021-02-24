@@ -73,3 +73,8 @@
   background-color: #d45e19 !important;
   transition: 200ms;
 }
+
+/* required asterisk */
+.redesigned-theme-2018 form span.req {
+  color: #EC742E !important;
+}
