@@ -19,8 +19,8 @@
 
 /* borders on text inputs */
 .wufoo input.text,
-  input.search,
-  textarea.textarea {
+.wufoo input.search,
+.wufoo textarea.textarea {
   border-top: 1px solid red !important;
   border-left: 1px solid red !important;
   border-right: 1px solid red !important;
@@ -28,8 +28,8 @@
   background: #fff !important;
 }
 .wufoo li.selected input.text,
-  input.search,
-  textarea.textarea {
+.wufoo li.selected input.search,
+.wufoo li.selected textarea.textarea {
   border-top: 1px solid green !important;
   border-left: 1px solid green !important;
   border-right: 1px solid green !important;
