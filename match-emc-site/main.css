@@ -7,6 +7,28 @@
  Last Updated : 2/24/2021
 
 - - - - - - - - - - - - - - - - - - - - - */
-form.wufoo {
-  font-family: "bianco-reg", "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+form.wufoo * {
+  font-family: "bianco-reg", "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+textarea, input {
+  padding: 3px 6px 3px 6px;
+}
+
+textarea:focus, input:focus {
+  border: none;
+}
+
+input[type=submit] {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  background-color: #EC742E;
+  transition: 200ms;
+}
+input[type=submit]:hover {
+  background-color: #d45e19;
+  transition: 200ms;
 }
