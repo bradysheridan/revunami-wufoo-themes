@@ -21,11 +21,20 @@
 .wufoo input.text,
   input.search,
   textarea.textarea {
-  border-top: 1px solid red;
-  border-left: 1px solid red;
-  border-right: 1px solid red;
-  border-bottom: 1px solid red;
-  background: #fff;
+  border-top: 1px solid red !important;
+  border-left: 1px solid red !important;
+  border-right: 1px solid red !important;
+  border-bottom: 1px solid red !important;
+  background: #fff !important;
+}
+.wufoo li.selected input.text,
+  input.search,
+  textarea.textarea {
+  border-top: 1px solid green !important;
+  border-left: 1px solid green !important;
+  border-right: 1px solid green !important;
+  border-bottom: 1px solid green !important;
+  background: blue !important;
 }
 
 /* submit button */
