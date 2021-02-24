@@ -20,6 +20,10 @@
 .wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
 .wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
 .wufoo input.text::placeholder, .wufoo textarea.textarea::placeholder{font-size:100%;font-family:inherit;color:#333333}
+.wufoo input.text::-webkit-input-placeholder, .wufoo textarea.textarea::-webkit-input-placeholder{font-size:100%;font-family:inherit;color:#333333}
+.wufoo input.text::-moz-placeholder, .wufoo textarea.textarea::-moz-placeholder{font-size:100%;font-family:inherit;color:#333333}
+.wufoo input.text:-ms-input-placeholder, .wufoo textarea.textarea:-ms-input-placeholder{font-size:100%;font-family:inherit;color:#333333}
+.wufoo input.text:-moz-placeholder, .wufoo textarea.textarea:-moz-placeholder{font-size:100%;font-family:inherit;color:#333333}
 .wufoo label.choice{color:#444444}
 .wufoo .instruct{font-size:80%;font-family:inherit;color:#444444
 }
