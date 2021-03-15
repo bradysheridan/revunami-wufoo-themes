@@ -15,7 +15,7 @@
 
 /* hide header (title/description handled by components outside of form) */
 .wufoo header {
-  display: none !important;
+  /* display: none !important; */
 }
 
 /* borders on text inputs */
